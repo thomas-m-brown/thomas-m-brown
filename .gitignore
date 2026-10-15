@@ -1,0 +1,16 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & credentials
+.env
+*.local
+credentials.json
+*.pem
+*.key
