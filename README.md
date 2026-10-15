@@ -1,45 +1,46 @@
 ## Thomas M. Brown
 
-CS student building AI infrastructure and distributed systems on bare metal. Background in electrical assembly, QC engineering, and ISO manufacturing — I approach systems reliability the way a QC engineer does: failure modes first, document everything, own it when something breaks.
-
-Currently: Pre-CS @ Butler Community College (4.0 GPA) → WSU transfer track.
-Target: Remote platform/cloud engineering with AI infrastructure focus.
-
----
-
-### Certs in progress
-
-- CompTIA A+ *(studying now)*
-- CompTIA Network+ · Linux+ · AWS Cloud Practitioner · AWS SAA *(2026–2027)*
+**Systems & AI Infrastructure | Industrial Quality Control Background**  
+Pre-Engineering @ Butler Community College (4.0 GPA) → Wichita State University Transfer Track.  
+Applying failure-mode analysis (FMEA) and ISO defect-prevention principles to bare-metal AI infrastructure and edge computing.
 
 ---
 
-### Projects
+### Core Engineering Projects
 
-**[Straddle](https://github.com/thomas-m-brown/straddle)** — Ollama inference proxy. Unified OpenAI-compatible endpoint for all local clients, persistent system prompt injection, live email/calendar context enrichment, and KV cache stability. Built to eliminate per-client Ollama configuration across a multi-device homelab.
+#### Active Systems & Full-Stack Applications
+* **[OpenSpace](https://github.com/thomas-m-brown/openspace)** — *Hardware-Aware Edge AI Router & Memory Daemon*  
+  Dynamically evaluates host RAM headroom to prevent OOM panics, classifies request intent with local fast-tier models, and routes between Apple Silicon MLX and llama.cpp runtimes with automated fallback chains.
+* **[YT Playlist Organizer](https://github.com/thomas-m-brown/youtube-organizer)** — *Idempotent Playlist Sorter & API Quota Guard*  
+  Desktop application (React, Vite, Electron) with Google Identity Services OAuth 2.0 PKCE, strict 10k unit/day API quota optimization, and transactional non-destructive JSON rollbacks.
+* **[OpenCode Agentic OS](https://github.com/thomas-m-brown/opencode-agentic-os)** — *Hybrid Deterministic & Multi-Agent Architecture*  
+  Modular topology of 35 specialized agents with sub-10ms zero-token deterministic math computation and hardware-aware automated profiling scripts.
 
-**[OpenSpace](https://github.com/thomas-m-brown/openspace)** — Self-hosted AI router. A fast local model classifies intent before dispatch, routes to the right specialist model, falls back through a defined chain on failure, and checks available RAM before loading. No cloud dependency.
-
-**[OpenCode Agentic OS](https://github.com/thomas-m-brown/opencode-agentic-os)** — 35 domain-specific agents for OpenCode: education tutors, DevOps, QA, sales, engineering. Includes a zero-LLM math calculator that handles arithmetic in under 100ms without touching a model.
+#### Architectural Case Studies & Prior Art
+* **[Straddle](https://github.com/thomas-m-brown/straddle)** — *Autonomous Infrastructure Layer for Hermes Agent (Archived / Historical Precedent)*  
+  Prototyped autonomous Kanban task dispatching and 16k context window compression prior to upstream Hermes Agent implementing native plugin architecture. Documented with formal [Architectural Decision Records (ADRs)](https://github.com/thomas-m-brown/straddle/tree/main/docs/adr).
 
 ---
 
-### Stack
+### Engineering & QC Background
 
-Python · FastAPI · Linux (Ubuntu) · Ollama · Docker · Tailscale · systemd · Bash · AutoCAD/GD&T
+2+ years as QC Technician II in electrical manufacturing:
+* Final build authority on 700+ industrial power distribution and control units (99.6% defect-free rate).
+* Authored testing and inspection protocols for new product lines under ISO quality frameworks.
+* Translating industrial reliability standards into software engineering: systematic failure-mode testing, documented handoffs, and deterministic fallbacks.
 
 ---
 
-### Background
+### Stack & Tools
 
-Spent 2+ years as QC Technician II at an electrical manufacturing company — final build authority on 700+ units, 99.6% defect-free rate, wired electrical panels and power distribution units from blueprints, developed inspection procedures for new product lines. That background shapes how I build software: systematic troubleshooting, documentation that survives handoff, and testing before shipping.
-
-Open to remote. Based in Wichita, KS.
+Python · FastAPI · React · Electron · Linux (Ubuntu) · Apple Silicon MLX · Ollama · Docker · Tailscale · systemd · Bash · AutoCAD / GD&T
 
 ---
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/linux-ubuntu-e95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Ollama](https://img.shields.io/badge/ollama-local%20AI-black?style=flat-square)
-![AWS](https://img.shields.io/badge/AWS-in%20progress-ff9900?style=flat-square&logo=amazonaws&logoColor=white)
+![React](https://img.shields.io/badge/react-18-61dafb?style=flat-square&logo=react&logoColor=black)
+![Electron](https://img.shields.io/badge/electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Apple Silicon](https://img.shields.io/badge/MLX-Apple%20Silicon-000000?style=flat-square)
+![Linux](https://img.shields.io/badge/linux-ubuntu-e95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white)
