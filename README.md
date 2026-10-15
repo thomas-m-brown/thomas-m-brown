@@ -11,8 +11,8 @@ Applying failure-mode analysis (FMEA) and ISO defect-prevention principles to ba
 #### Active Systems & Full-Stack Applications
 * **[OpenSpace](https://github.com/thomas-m-brown/openspace)** — *Hardware-Aware Edge AI Router & Memory Daemon*  
   Dynamically evaluates host RAM headroom to prevent OOM panics, classifies request intent with local fast-tier models, and routes between Apple Silicon MLX and llama.cpp runtimes with automated fallback chains.
-* **[YT Playlist Organizer](https://github.com/thomas-m-brown/youtube-organizer)** — *Idempotent Playlist Sorter & API Quota Guard*  
-  Desktop application (React, Vite, Electron) with Google Identity Services OAuth 2.0 PKCE, strict 10k unit/day API quota optimization, and transactional non-destructive JSON rollbacks.
+* **[YouTube Playlist Organizer](https://github.com/thomas-m-brown/youtube-organizer)** — *Idempotent Playlist Sorter & API Quota Guard*  
+  Desktop and web application (React, Vite, Electron) with Google Identity Services OAuth 2.0 PKCE, strict 10k unit/day API quota optimization, and transactional non-destructive JSON rollbacks.
 * **[OpenCode Agentic OS](https://github.com/thomas-m-brown/opencode-agentic-os)** — *Hybrid Deterministic & Multi-Agent Architecture*  
   Modular topology of 35 specialized agents with sub-10ms zero-token deterministic math computation and hardware-aware automated profiling scripts.
 
